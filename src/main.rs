@@ -1,3 +1,5 @@
+#![windows_subsystem = "windows"]
+
 use aes::cipher::{
     generic_array::{typenum::U16, GenericArray},
     BlockDecrypt, BlockEncrypt, KeyInit,
